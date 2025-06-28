@@ -100,7 +100,7 @@ const maxDensity = 15000;
 // Mật độ điểm khi có 10 ảnh trở lên (thấp nhất)
 const minDensity = 4000;
 // Số lượng ảnh tối đa mà chúng ta quan tâm để điều chỉnh
-const maxGroupsForScale = 9;
+const maxGroupsForScale = 14;
 
 let pointsPerGroup;
 
@@ -609,7 +609,7 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-    'LoveLoom',
+    'Nam yêu Vy',
     ...(window.dataLove2Loveloom && window.dataLove2Loveloom.data.ringTexts ? window.dataLove2Loveloom.data.ringTexts : [])
 ];
 
